@@ -1,0 +1,6 @@
+.buttonsContainer {
+  display: flex;
+  gap: var(--s-gap);
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}

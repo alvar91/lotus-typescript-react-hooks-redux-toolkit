@@ -1,0 +1,17 @@
+.timerContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  min-height: 50px;
+  border-radius: var(--radius);
+  align-items: center;
+  color: var(--primary-lightRed-active);
+  font-weight: 500;
+  background-color: var(--secondary-lightRed);
+}
+
+.timerIcon {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+}

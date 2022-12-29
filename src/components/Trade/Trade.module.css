@@ -1,0 +1,22 @@
+.text {
+  margin: 0;
+  margin-bottom: var(--main-gap);
+  padding-bottom: var(--main-gap);
+  border-bottom: 2px solid var(--primary-gray);
+  color: var(--primary-red);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content {
+  margin: 0;
+  padding: 0 4px;
+  margin-bottom: var(--main-gap);
+  color: var(--primary-red);
+  background-color: var(--primary-gray);
+}

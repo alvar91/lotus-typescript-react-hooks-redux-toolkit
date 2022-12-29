@@ -1,0 +1,73 @@
+.button {
+  display: flex;
+  gap: var(--xs-gap);
+  align-items: center;
+  padding: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  outline: var(--outline) solid transparent;
+  transition: all var(--transition-time) ease-out;
+  cursor: pointer;
+}
+
+.default {
+  color: var(--primary-light);
+  background-color: var(--primary-default);
+}
+
+.default:hover,
+.default:focus {
+  background-color: var(--primary-default-active);
+  outline: var(--outline) solid var(--secondary-default);
+  transition: all var(--transition-time) ease-out;
+}
+
+.green {
+  color: var(--primary-light);
+  background-color: var(--primary-green);
+}
+
+.green:hover,
+.green:focus {
+  background-color: var(--primary-green-active);
+  outline: var(--outline) solid var(--secondary-green);
+  transition: all var(--transition-time) ease-out;
+}
+
+.red {
+  color: var(--primary-light);
+  background-color: var(--primary-lightRed);
+}
+
+.red:hover,
+.red:focus {
+  background-color: var(--primary-lightRed-active);
+  outline: var(--outline) solid var(--secondary-red);
+  transition: all var(--transition-time) ease-out;
+}
+
+.lightRed {
+  color: var(--primary-lightRed);
+  background-color: var(--primary-gray);
+  border: 1px solid var(--primary-lightRed);
+}
+
+.lightRed:hover,
+.lightRed:focus {
+  background-color: var(--primary-gray);
+  outline: var(--outline) solid var(--primary-gray);
+  transition: all var(--transition-time) ease-out;
+}
+
+.gray {
+  color: var(--primary-dark);
+  background-color: var(--primary-gray);
+  transition: all var(--transition-time) ease-out;
+}
+
+.gray:hover {
+  background-color: var(--primary-gray);
+  outline: var(--outline) solid var(--secondary-gray);
+  transition: all var(--transition-time) ease-out;
+}

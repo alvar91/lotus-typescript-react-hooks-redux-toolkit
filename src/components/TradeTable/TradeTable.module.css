@@ -1,0 +1,76 @@
+.tableContainer {
+  overflow-x: auto;
+  margin-bottom: var(--main-gap);
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.tableHead {
+  height: 52px;
+  min-width: 400px;
+  padding: var(--xs-gap);
+  font-weight: 400;
+  text-align: left;
+}
+
+.tableHeadTop {
+  text-align: center;
+}
+
+.tableRow:nth-child(odd) {
+  background-color: var(--primary-gray);
+}
+
+.tableRow:first-child {
+  color: var(--secondary-default);
+  text-transform: uppercase;
+  background-color: var(--primary-light);
+}
+
+.tableRow:nth-child(2) {
+  color: var(--secondary-default);
+  text-transform: uppercase;
+  background-color: var(--primary-light);
+}
+
+.tableColumn {
+  min-width: 300px;
+}
+
+.tableTitle {
+  padding: 8px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--xs-gap);
+  margin: 0;
+  text-align: center;
+}
+
+.text:nth-child(2) {
+  font-weight: 500;
+}
+
+.cost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--xs-gap);
+  margin: 0;
+  color: var(--primary-default);
+  text-align: center;
+}
+
+.costDiscount {
+  color: var(--primary-red);
+}
+
+.costStart {
+  color: var(--primary-green);
+}
